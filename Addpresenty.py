@@ -7,6 +7,7 @@ if not os.path.exists("Book1.csv"):
     with open("Book1.csv",'w') as file:
         pass
 
+st.set_page_config(layout="wide")
 
 st.title("Attendence Tracker")
 st.subheader("this will help you manage your daily college schedule!")
