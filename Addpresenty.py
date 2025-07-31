@@ -1,6 +1,12 @@
 import streamlit as st
 import pandas as pd
 import csv
+import os
+
+if not os.path.exists("Book1.csv"):
+    with open("Book1.csv",'w') as file:
+        pass
+
 
 #getting the csv file
 df = pd.read_csv("Book1.csv")
