@@ -7,7 +7,13 @@ if not os.path.exists("Book1.csv"):
     with open("Book1.csv",'w') as file:
         pass
 
+col1,col2=st.columns(2)
 
+with col1:
+    st.title("Attendence Tracker")
+
+with col2:
+    st.image("image.png")
 #getting the csv file
 df = pd.read_csv("Book1.csv")
 
