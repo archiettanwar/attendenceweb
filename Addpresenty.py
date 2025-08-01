@@ -9,7 +9,7 @@ if not os.path.exists("Book1.csv"):
 
 st.set_page_config(layout="wide")
 
-st.title("Attendence Tracker")
+st.title("Attendence Tracker,changed")
 st.subheader("this will help you manage your daily college schedule!")
 
 #getting the csv file

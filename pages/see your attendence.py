@@ -17,7 +17,7 @@ with col1:
         st.write(reader[i][sub_index])
 
 with col2:
-    st.header("Percentage Present")
+    st.header("Percentage Present changed")
 
     for i in range(len(df)):
         subject = df["subject"][i]
